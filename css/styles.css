@@ -1,6 +1,6 @@
 /* Dine styles her */
 form {
-  padding: 2rem;
+  padding: 1rem;
   background: #5000ca;
   border-radius: 8px;
   display: grid;
@@ -12,14 +12,14 @@ form {
 }
 legend{
   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: white;
 }
 input, select, textarea{
   border-radius: 5px;
   min-height: 35px;
   border: none;
-  color: #39028b;
+  color: #390462;
     font-family: system-ui, sans-serif;
   font-weight: 600;
   font-size: 0.9rem;
@@ -39,5 +39,8 @@ button{
 font-weight: 600;
 font-size: 1.4rem;
 line-height: 150%;
+}
+fieldset{
+  border: none;
 }
 
