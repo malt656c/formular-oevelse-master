@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger menu-øvelse</title>
+    <link rel="stylesheet" href="css/demo.css" />
+    <!-- Ret i nedenståendde stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="banner">
+      <div class="logo">
+        <a href="#0">Logo</a>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <header>
+          <h2>Kontakt os</h2>
+          <p>Udfyld kontaktformularen for at kontakte os. Vi glæder os til at høre fra dig.</p>
+        </header>
+        <form name="KEA_person" netlify>
+
+          <fieldset>
+
+            <!-- fornavn -->
+              <div class="formbox">
+                <legend>Fornavn</legend>
+                <input type="text" id="fornavn" name="fornavn" />
+              </div>
+            <!-- fornavn -->
+
+            <!-- efternavn -->
+              <div class="formbox">
+                <legend>Efternavn</legend>
+                <input type="text" id="efternavn" name="efternavn" />
+              </div>
+            <!-- efternavn -->
+
+            <!-- email -->
+              <div class="formbox">
+                <legend>Email</legend>
+                <input type="email" id="email" name="email" />
+              </div>
+            <!-- email -->
+
+            <!-- select -->
+              <div class="formbox">
+                <legend>Din rolle</legend>
+                <select id="rolle" name="rolle">
+                  <option value="underviser">Underviser</option>
+                  <option value="studerende">Studerende</option>
+                </select>
+              </div>
+            <!-- select -->
+
+            <!-- besked -->
+              <div class="formbox">
+                <legend>Tilføjelser</legend>
+                <textarea type="besked" id="besked" rows="4" cols="50"> Tilføj mere information</textarea>
+              </div>
+            <!-- besked -->
+
+          </fieldset>
+
+          <button>Indsend</button>
+
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

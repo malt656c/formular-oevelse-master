@@ -1,0 +1,43 @@
+/* Dine styles her */
+form {
+  padding: 2rem;
+  background: #5000ca;
+  border-radius: 8px;
+  display: grid;
+}
+.formbox{
+  display: grid;
+  grid-template-columns: 1fr 4fr ;
+  padding: 10px;
+}
+legend{
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+input, select, textarea{
+  border-radius: 5px;
+  min-height: 35px;
+  border: none;
+  color: #39028b;
+    font-family: system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 150%;
+  background-color: #ffffff;
+}
+button{
+  width: 30%;
+  aspect-ratio: 7/2;
+  margin-block: 20px;
+  justify-self: center;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  background-color: #390462;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+font-weight: 600;
+font-size: 1.4rem;
+line-height: 150%;
+}
+
